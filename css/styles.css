@@ -148,3 +148,42 @@ img {
     color: #1b414b;
     background-color: #fbfbfb;
 }
+.fleet-section {
+    background: #fbfbfb;
+    border-radius: 24px;
+    width: 1340px;
+    margin: 0 auto;
+}
+.fleet-section .container {
+    display: flex;
+    padding: 50px 50px 0 50px;
+}
+.fleet-container {
+    max-width: 404px;
+}
+.fleet-title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    max-width: 537px;
+    margin-right: 299px;
+}
+.fleet-subtitle {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    margin-bottom: 20px;
+}
+.fleet-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: #040306;
+    opacity: 0.4;
+    margin-bottom: 98px;
+}
