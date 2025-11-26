@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <div class="hero-image"></div>
     <header class="header-page">
       <div class="container">
         <nav class="header-page-navigation">
@@ -42,24 +43,32 @@
               class="social-link"
               href="https://www.instagram.com/"
               target="_blank"
-              >i</a
-            >
+              ><svg class="icon-social">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
           </li>
           <li class="social-list-item">
             <a
               class="social-link"
               href="https://www.youtube.com/"
               target="_blank"
-              >y</a
             >
+              <svg class="icon-social">
+                <use href="./images/icons.svg#icon-youtube"></use>
+              </svg>
+            </a>
           </li>
           <li class="social-list-item">
             <a
               class="social-link"
               href="https://www.facebook.com/"
               target="_blank"
-              >f</a
             >
+              <svg class="icon-social">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
           </li>
         </ul>
       </div>
@@ -107,92 +116,102 @@
           />
         </div>
       </section>
-      <section>
-        <h2>Choose your dream yacht and sail away into the sunset</h2>
-        <ul>
-          <li>
-            <img src="./images/arrow.png" alt="arrow" width="360" />
-            <h3>arrow</h3>
-            <p>luxury yahts</p>
-            <ul>
-              <li>
-                <p>length</p>
-                <p>48m(155ft)</p>
-              </li>
-              <li>
-                <p>builder</p>
-                <p>Admiral</p>
-              </li>
-              <li>
-                <p>built</p>
-                <p>2021</p>
-              </li>
-              <li>
-                <p>guests</p>
-                <p>11 in 5 cabins</p>
-              </li>
-              <li>
-                <p>price</p>
-                <p>€33,500,000</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <img src="./images/benetti.png" alt="benetti" width="360" />
-            <h3>benetti oasis 40M BO122</h3>
-            <p>luxury yahts</p>
-            <ul>
-              <li>
-                <p>length</p>
-                <p>41m (133ft)</p>
-              </li>
-              <li>
-                <p>shipyard</p>
-                <p>Benetti</p>
-              </li>
-              <li>
-                <p>built</p>
-                <p>2025</p>
-              </li>
-              <li>
-                <p>guests</p>
-                <p>10 in 5 cabins</p>
-              </li>
-              <li>
-                <p>price</p>
-                <p>€23,210,000</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <img src="./images/belle-anna.png" alt="belle anna" width="360" />
-            <h3>belle anna</h3>
-            <p>luxury yahts</p>
-            <ul>
-              <li>
-                <p>length</p>
-                <p>50m(155ft)</p>
-              </li>
-              <li>
-                <p>shipyard</p>
-                <p>ISA</p>
-              </li>
-              <li>
-                <p>built</p>
-                <p>2012</p>
-              </li>
-              <li>
-                <p>guests</p>
-                <p>12 in 6 cabins</p>
-              </li>
-              <li>
-                <p>price</p>
-                <p>€21,000,000</p>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <button type="button">Yacht rental</button>
+      <section class="choose-section">
+        <div class="container">
+          <h2 class="choose-yacht-title">
+            Choose your dream yacht and sail away into the sunset
+          </h2>
+          <ul class="yacht-list">
+            <li class="yacht-card">
+              <img src="./images/arrow.png" alt="arrow" width="360" />
+              <div class="title-container">
+                <h3 class="yacht-list-title">arrow</h3>
+                <p class="yacht-list-text">luxury yahts</p>
+              </div>
+              <ul class="yacht-details">
+                <li>
+                  <p class="yacht-details-labels">length</p>
+                  <p class="yacht-details-value">48m(155ft)</p>
+                </li>
+                <li>
+                  <p class="yacht-details-labels">builder</p>
+                  <p class="yacht-details-value">Admiral</p>
+                </li>
+                <li>
+                  <p class="yacht-details-labels">built</p>
+                  <p class="yacht-details-value">2021</p>
+                </li>
+                <li>
+                  <p class="yacht-details-labels">guests</p>
+                  <p class="yacht-details-value">11 in 5 cabins</p>
+                </li>
+                <li>
+                  <p class="yacht-details-labels">price</p>
+                  <p class="yacht-details-value">€33,500,000</p>
+                </li>
+              </ul>
+            </li>
+            <li class="yacht-card">
+              <img src="./images/benetti.png" alt="benetti" width="360" />
+              <div class="title-container">
+                <h3 class="yacht-list-title">benetti oasis 40M BO122</h3>
+                <p class="yacht-list-text">luxury yahts</p>
+              </div>
+              <ul class="yacht-details">
+                <li>
+                  <p class="yacht-details-labels">length</p>
+                  <p class="yacht-details-value">41m (133ft)</p>
+                </li>
+                <li>
+                  <p class="yacht-details-labels">shipyard</p>
+                  <p class="yacht-details-value">Benetti</p>
+                </li>
+                <li>
+                  <p class="yacht-details-labels">built</p>
+                  <p class="yacht-details-value">2025</p>
+                </li>
+                <li>
+                  <p class="yacht-details-labels">guests</p>
+                  <p class="yacht-details-value">10 in 5 cabins</p>
+                </li>
+                <li>
+                  <p class="yacht-details-labels">price</p>
+                  <p class="yacht-details-value">€23,210,000</p>
+                </li>
+              </ul>
+            </li>
+            <li class="yacht-card">
+              <img src="./images/belle-anna.png" alt="belle anna" width="360" />
+              <div class="title-container">
+                <h3 class="yacht-list-title">belle anna</h3>
+                <p class="yacht-list-text">luxury yahts</p>
+              </div>
+              <ul class="yacht-details">
+                <li>
+                  <p class="yacht-details-labels">length</p>
+                  <p class="yacht-details-value">50m(155ft)</p>
+                </li>
+                <li>
+                  <p class="yacht-details-labels">shipyard</p>
+                  <p class="yacht-details-value">ISA</p>
+                </li>
+                <li>
+                  <p class="yacht-details-labels">built</p>
+                  <p class="yacht-details-value">2012</p>
+                </li>
+                <li>
+                  <p class="yacht-details-labels">guests</p>
+                  <p class="yacht-details-value">12 in 6 cabins</p>
+                </li>
+                <li>
+                  <p class="yacht-details-labels">price</p>
+                  <p class="yacht-details-value">€21,000,000</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <button type="button" class="btn-rent-two">Yacht rental</button>
       </section>
       <section>
         <h2>advantages</h2>
@@ -274,11 +293,25 @@
       </nav>
       <ul>
         <li>
-          <a href="https://www.instagram.com/" target="_blank">instagram</a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <svg class="icon-social">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
         </li>
-        <li><a href="https://www.youtube.com/" target="_blank">youtube</a></li>
         <li>
-          <a href="https://www.facebook.com/" target="_blank">facebook</a>
+          <a href="https://www.youtube.com/" target="_blank">
+            <svg class="icon-social">
+              <use href="./images/icons.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/" target="_blank">
+            <svg class="icon-social">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
         </li>
       </ul>
       <p>
