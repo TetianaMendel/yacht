@@ -213,115 +213,217 @@
         </div>
         <button type="button" class="btn-rent-two">Yacht rental</button>
       </section>
-      <section>
-        <h2>advantages</h2>
-        <ol>
-          <li>Swimming and water sports: try your hand at water skiing</li>
-          <li>Fishing: try to catch your own dinner</li>
-          <li>
-            Sightseeing tours: take a shore or island tour, enjoy the views and
-            sunsets from the water
-          </li>
-          <li>
-            Rest and relaxation: read a book or listen to music while enjoying
-            the outdoor atmosphere.
-          </li>
-        </ol>
-        <img src="./images/advantages.png" alt="advantages" width="540" />
+      <section class="advantages-section">
+        <div class="advantages-container">
+          <h2 class="visually-hidden">advantages</h2>
+          <div class="advantages-box">
+            <ol class="advantages-list">
+              <li class="advantages-item">
+                <h3 class="advantages-item-number">01</h3>
+                <hr class="hr-advantages" />
+                <p class="advantages-text">
+                  Swimming and water sports: try your hand at water skiing
+                </p>
+              </li>
+              <li class="advantages-item">
+                <h3 class="advantages-item-number">02</h3>
+                <hr class="hr-advantages" />
+                <p class="advantages-text">
+                  Fishing: try to catch your own dinner
+                </p>
+              </li>
+              <li class="advantages-item">
+                <h3 class="advantages-item-number">03</h3>
+                <hr class="hr-advantages" />
+                <p class="advantages-text">
+                  Sightseeing tours: take a shore or island tour, enjoy the
+                  views and sunsets from the water
+                </p>
+              </li>
+              <li class="advantages-item">
+                <h3 class="advantages-item-number">04</h3>
+                <hr class="hr-advantages" />
+                <p class="advantages-text">
+                  Rest and relaxation: read a book or listen to music while
+                  enjoying the outdoor atmosphere
+                </p>
+              </li>
+            </ol>
+            <img src="./images/advantages.png" alt="advantages" width="540" />
+          </div>
+        </div>
       </section>
-      <section>
-        <h2>Rent a yacht now</h2>
-        <img src="./images/rent-a-yacht.png" alt="rent-a-yacht" width="768" />
+      <section class="rent-section">
+        <div class="rent-container">
+          <div class="rent-img-box">
+            <img
+              src="./images/rent-a-yacht.png"
+              alt="rent-a-yacht"
+              width="768"
+            />
+          </div>
+          <div class="rent-form-box">
+            <h2 class="rent-title">Rent a yacht now</h2>
+            <form class="form-rent-yacht">
+              <label class="label-form">
+                <input
+                  class="input-form"
+                  type="text"
+                  name="name"
+                  placeholder="Full Name"
+                />
+              </label>
+              <label class="label-form">
+                <input
+                  class="input-form"
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                />
+              </label>
+              <label class="label-form">
+                <input
+                  class="input-form"
+                  type="tel"
+                  name="tel"
+                  placeholder="Phone number"
+                />
+              </label>
+              <label class="label-textarea">
+                <textarea
+                  class="textarea-form"
+                  name="comment"
+                  placeholder="Comment"
+                ></textarea>
+              </label>
+              <button class="btn-form" type="submit">Send</button>
+            </form>
+          </div>
+        </div>
       </section>
-      <section>
-        <h2>
-          YachtJet take pride in providing the best possible service and
-          experience to our customers
-        </h2>
-        <p>
-          Our customers have enjoyed unforgettable moments on our yachts. Don't
-          just take our word for it - read on to find out what they have to say
-          about their journey with us.
-        </p>
-        <ul>
-          <li>
-            <img src="./images/john-wax.png" alt="John Wax" width="56" />
-            <h3>John Wax</h3>
-            <p>
-              I rented the Lagoon 620 with my family for a week-long vacation
-              and it was the best decision ever. The yacht was spacious,
-              comfortable, and luxurious, and the crew took care of everything.
+      <section class="service-section">
+        <div class="service-container">
+          <div class="service-container-text">
+            <h2 class="service-title">
+              YachtJet take pride in providing the best possible service and
+              experience to our customers
+            </h2>
+            <p class="service-text">
+              Our customers have enjoyed unforgettable moments on our yachts.
+              Don't just take our word for it - read on to find out what they
+              have to say about their journey with us.
             </p>
-          </li>
-          <li>
-            <img
-              src="./images/victoria-romashenko.png"
-              alt="Victoria Romashenko"
-              width="56"
-            />
-            <h3>Victoria Romashenko</h3>
-            <p>
-              The Sunseeker Manhattan 66 was the perfect choice for our romantic
-              getaway. The yacht was beautifully designed, with all the
-              amenities we needed, and the crew was attentive and friendly.
-            </p>
-          </li>
-          <li>
-            <img
-              src="./images/ihor-trachuk.png"
-              alt="Ihor Trachuk"
-              width="56"
-            />
-            <h3>Ihor Trachuk</h3>
-            <p>
-              The Azimut 80 was the most luxurious yacht I've ever been on. The
-              cabins were spacious and elegant, and the outdoor areas were
-              perfect for relaxing and entertaining. Worth every penny!
-            </p>
-          </li>
-        </ul>
+          </div>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="thumb">
+                <img src="./images/john-wax.png" alt="John Wax" width="56" />
+              </div>
+              <div class="service-person">
+                <h3 class="service-person-title">John Wax</h3>
+                <p class="service-person-text">
+                  I rented the Lagoon 620 with my family for a week-long
+                  vacation and it was the best decision ever. The yacht was
+                  spacious, comfortable, and luxurious, and the crew took care
+                  of everything.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="thumb">
+                <img
+                  src="./images/victoria-romashenko.png"
+                  alt="Victoria Romashenko"
+                  width="56"
+                />
+              </div>
+              <div class="service-person">
+                <h3 class="service-person-title">Victoria Romashenko</h3>
+                <p class="service-person-text">
+                  The Sunseeker Manhattan 66 was the perfect choice for our
+                  romantic getaway. The yacht was beautifully designed, with all
+                  the amenities we needed, and the crew was attentive and
+                  friendly.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="thumb">
+                <img
+                  src="./images/ihor-trachuk.png"
+                  alt="Ihor Trachuk"
+                  width="56"
+                />
+              </div>
+              <div class="service-person">
+                <h3 class="service-person-title">Ihor Trachuk</h3>
+                <p class="service-person-text">
+                  The Azimut 80 was the most luxurious yacht I've ever been on.
+                  The cabins were spacious and elegant, and the outdoor areas
+                  were perfect for relaxing and entertaining. Worth every penny!
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer>
-      <nav>
-        <a href="./index.html">yachtjet</a>
+    <footer class="page-footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <nav class="footer-nav">
+            <a class="footer-page-logo" href="./index.html">yachtjet</a>
+            <ul class="footer-menu">
+              <li class="footer-menu-item"><a href="">About</a></li>
+              <li class="footer-menu-item"><a href="">Yachts</a></li>
+              <li class="footer-menu-item"><a href="">Reviews</a></li>
+            </ul>
+          </nav>
+          <ul class="footer-socials">
+            <li class="footer-socials-item">
+              <a
+                class="footer-socials-link"
+                href="https://www.instagram.com/"
+                target="_blank"
+              >
+                <svg class="icon-social">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a
+                class="footer-socials-link"
+                href="https://www.youtube.com/"
+                target="_blank"
+              >
+                <svg class="icon-social">
+                  <use href="./images/icons.svg#icon-youtube"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a
+                class="footer-socials-link"
+                href="https://www.facebook.com/"
+                target="_blank"
+              >
+                <svg class="icon-social">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p>
+          No matter which yacht you choose, our experienced crew will ensure
+          that your journey is smooth and enjoyable.
+        </p>
         <ul>
-          <li><a href="">About</a></li>
-          <li><a href="">Yachts</a></li>
-          <li><a href="">Reviews</a></li>
+          <li>2023. Yacht Adventures</li>
+          <li>Privacy Police</li>
         </ul>
-      </nav>
-      <ul>
-        <li>
-          <a href="https://www.instagram.com/" target="_blank">
-            <svg class="icon-social">
-              <use href="./images/icons.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/" target="_blank">
-            <svg class="icon-social">
-              <use href="./images/icons.svg#icon-youtube"></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/" target="_blank">
-            <svg class="icon-social">
-              <use href="./images/icons.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-      <p>
-        No matter which yacht you choose, our experienced crew will ensure that
-        your journey is smooth and enjoyable.
-      </p>
-      <ul>
-        <li>2023. Yacht Adventures</li>
-        <li>Privacy Police</li>
-      </ul>
+      </div>
     </footer>
   </body>
 </html>
